@@ -1,52 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
 
-  <!-- Sign-up form start -->
+    <!-- Script For Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
 
-  Stay updated!
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      /* .container {
+        width: 68rem;
+        height: 41rem;
+        background-color: gray;
 
-  Join 60,000+ product managers receiving monthly updates on:
+        text-align: center; 
+        margin: 0 auto;
+      } */
 
-  Product discovery and building what matters
-  Measuring to ensure updates are a success
-  And much more!
+      /* .container .card {
+        width: 45rem;
+        height: 27rem;
+        background-color: white;
 
-  Email address
-  email@company.com
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="container bg-dark p-5 m-5">
+      <div class="card p-3" style="width: 100%; border-radius: 20px">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-8 d-flex flex-column justify-content-between">
+              <h1 class="card-title fw-bold">Stay updated!</h1>
+              <h5 class="card-subtitle mb-2 text-body-secondary">
+                Join 60,000+ product managers receiving monthly updates on:
+              </h5>
+              <ul>
+                <li>Product discovery and building what matters</li>
+                <li>Measuring to ensure updates are a success</li>
+                <li>And much more!</li>
+              </ul>
 
-  Subscribe to monthly newsletter
+              <label for="exampleInputEmail1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
 
-  <!-- Sign-up form end -->
+              <button type="button" class="btn btn-secondary mt-2">
+                Subscribe to monthly newsletter
+              </button>
+            </div>
+            <div class="col-lg-4" style="overflow: hidden">
+              <img
+                src="gettyimages-1254062229-1024x1024.jpg"
+                alt="ajsnkdajnskj"
+                style="
+                  width: 100%;
+                  height: 400px;
+                  background-size: cover;
+                  background-position: 0 0;
+                  border-radius: 25px;
+                " />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sign-up form start -->
 
-  <!-- Success message start -->
+    Stay updated! Join 60,000+ product managers receiving monthly updates on:
+    Product discovery and building what matters Measuring to ensure updates are
+    a success And much more! Email address email@company.com Subscribe to
+    monthly newsletter
 
-  Thanks for subscribing!
+    <!-- Sign-up form end -->
 
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
+    <!-- Success message start -->
 
-  Dismiss message
+    Thanks for subscribing! A confirmation email has been sent to
+    ash@loremcompany.com. Please open it and click the button inside to confirm
+    your subscription. Dismiss message
 
-  <!-- Success message end -->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!-- Success message end -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <!-- Script For Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
